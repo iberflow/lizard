@@ -123,7 +123,7 @@ class InitCommand extends Command
 
         $composer->update($install, $removed);
 
-        $lizard->updateAppConfig($input->getArgument('dir'), $added, $removed);
+        $lizard->updateAppConfig($added, $removed);
 
         /*
          **********************************************
