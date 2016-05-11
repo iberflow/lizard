@@ -46,7 +46,7 @@ class InitCommand extends Command
     protected function configure()
     {
         $this->setName('init')
-            ->setDescription('Install default laravel packages')
+            ->setDescription('Run lizard')
             ->addArgument('dir', InputArgument::OPTIONAL, 'Project directory');
     }
 
