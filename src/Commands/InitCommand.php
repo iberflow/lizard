@@ -118,11 +118,15 @@ class InitCommand extends Command
         foreach ($added as $add) {
             $install[$add] = $lizard->getPackage($add)['version'];
         }
-
+        
+        $window->clearScreen();
+        
         $output->writeln('<info>Updating composer.json and running composer update</info>');
 
         $composer->update($install, $removed);
-
+        
+        $window->switchBack();
+        
         $lizard->updateAppConfig($added, $removed);
 
         /*
