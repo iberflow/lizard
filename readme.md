@@ -23,23 +23,26 @@ Currently available composer packages:
 
 In addition it also allows you to setup bower and gulp files.
 
-#### Installation
+### Limitations
+Doesn't support Windows due to the missing `readline` extension on Windows PHP installations.
+
+### Installation
 Install globally via composer:
 
 `composer global require "ignasbernotas/lizard=*"`
 
-#### Usage
+### Usage
 
 To start lizard, run:
 `lizard init <project directory>`
 
-#### Roadmap
+### Roadmap
 [Roadmap](roadmap.md)
 
-#### Contributors
+### Contributors
 
 Artwork by [Justas Galaburda](https://dribbble.com/jucha)
 
-#### License
+### License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
