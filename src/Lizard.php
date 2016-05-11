@@ -128,7 +128,6 @@ class Lizard
 
     public function addBowerTemplate()
     {
-        echo $this->projectDir;
         $directory = __DIR__ . '/stubs/bower/';
 
         file_put_contents($this->projectDir . '/bower.json', file_get_contents($directory . 'bower.json'));
