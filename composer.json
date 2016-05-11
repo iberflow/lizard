@@ -1,0 +1,32 @@
+{
+  "name": "ignasbernotas/lizard",
+  "description": "Laravel project dependency manager and wizard.",
+  "keywords": [
+    "laravel",
+    "lizard",
+    "package manager"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ignas Bernotas",
+      "email": "ignas@iber.lt"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Iber\\Lizard\\": "src/"
+    }
+  },
+  "require": {
+    "symfony/process": "^3.0",
+    "funivan/php-tokenizer": "^0.1",
+    "ignasbernotas/console": "^0.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.0"
+  },
+  "bin": [
+    "bin/lizard"
+  ]
+}
