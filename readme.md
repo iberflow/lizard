@@ -26,7 +26,7 @@ In addition it also allows you to setup bower and gulp files.
 #### Installation
 Install globally via composer:
 
-`composer global require "ignasbernotas/lizard"`
+`composer global require "ignasbernotas/lizard=*"`
 
 #### Usage
 
